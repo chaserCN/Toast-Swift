@@ -92,6 +92,10 @@ public extension UIView {
         }
     }
     
+    func hasActiveToasts() -> Bool {
+        activeToasts.count > 0
+    }
+    
     // MARK: - Make Toast Methods
     
     /**
